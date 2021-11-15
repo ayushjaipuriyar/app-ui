@@ -10,8 +10,9 @@ A tool to make flows and diagrams.
 
 - Drag and drop the whole frams
 - Place the nodes anywhere
-- Logs the changes
+- Logs the changes\
 
+<<<<<<< HEAD
 
 
 
@@ -27,3 +28,18 @@ Operating System used : Linux\
 Javascript version : 1.7\
 create-react-app version: 4.03\
 npm version: 8.0.0\
+=======
+## How to run
+
+```
+npm install
+npm start
+```
+
+### Additional information
+
+Operating System used : Linux\
+Javascript version : 1.7\
+create-react-app version: 4.03\
+npm version: 8.0.0\
+>>>>>>> documentation
