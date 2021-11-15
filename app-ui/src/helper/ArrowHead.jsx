@@ -7,6 +7,7 @@ import {
 import { LinkWidget } from '@projectstorm/react-diagrams-core';
 import * as React from 'react';
 
+// for drawing the line with an arrow head
 export class AdvancedLinkModel extends DefaultLinkModel {
 	constructor() {
 		super({

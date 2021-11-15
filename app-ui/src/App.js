@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import EngineTest from './BasicConnection';
+import DefaultEngine from './BasicConnection';
 class App extends Component {
 	render() {
 		return (
 			<div>
-				<EngineTest />
+				<DefaultEngine />
 			</div>
 		);
 	}

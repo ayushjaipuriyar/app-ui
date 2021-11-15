@@ -3,10 +3,9 @@ import createEngine, {
 	DiagramModel,
 } from '@projectstorm/react-diagrams';
 import { AdvancedLinkFactory, AdvancedPortModel } from './helper/ArrowHead';
-
 import { CanvasWidget } from '@projectstorm/react-canvas-core';
 
-const engineTest = () => {
+const defaultEngine = () => {
 	const engine = createEngine();
 	engine.getLinkFactories().registerFactory(new AdvancedLinkFactory());
 
@@ -26,6 +25,7 @@ const engineTest = () => {
 	node2.setPosition(400, 100);
 	let port2 = node2.addPort(new AdvancedPortModel(true, 'in'));
 
+	// posting data about components and links to the express backend
 	const model = new DiagramModel();
 	model.registerListener({
 		eventDidFire: async (event) => {
@@ -56,9 +56,12 @@ const engineTest = () => {
 			});
 		},
 	});
+
 	const link1 = port1.link(port2);
+
 	let models = model.addAll(node1, node2, link1);
 
+	// logging all the changes that happen in the model
 	models.forEach((element) => {
 		element.registerListener({
 			eventDidFire: (event) => {
@@ -74,4 +77,4 @@ const engineTest = () => {
 	return <CanvasWidget className='engineTest' engine={engine} />;
 };
 
-export default engineTest;
+export default defaultEngine;
