@@ -8,13 +8,15 @@ A tool to make flows and diagrams.
 
 ### Features
 
-- Drag and drop the whole frams
+- Drag and drop the whole frame
 - Place the nodes anywhere
-- Logs the changes
+- Logs the changes\
 
 ## How to run
 
 ```
+git clone https://github.com/ayushjaipuriyar/app-ui.git
+cd app-ui/app-ui
 npm install
 npm start
 ```
@@ -22,6 +24,6 @@ npm start
 ### Additional information
 
 Operating System used : Linux\
-Javascript version : 1.7\
+Javascript version : ES5\
 create-react-app version: 4.03\
 npm version: 8.0.0\
