@@ -1,6 +1,6 @@
 # Introduction
 
-A small project made with the help of React-diagrams [here](https://github.com/projectstorm/react-diagrams).
+A small project made with the help of [React-diagrams](https://github.com/projectstorm/react-diagrams).
 
 A tool to make flows and diagrams.
 
@@ -10,7 +10,7 @@ A tool to make flows and diagrams.
 
 - Drag and drop the whole frame
 - Place the nodes anywhere
-- Logs the changes\
+- Logs the changes
 
 ## How to run
 
@@ -26,4 +26,4 @@ npm start
 Operating System used : Linux\
 Javascript version : ES5\
 create-react-app version: 4.03\
-npm version: 8.0.0\
+npm version: 8.0.0
