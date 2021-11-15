@@ -12,9 +12,6 @@ A tool to make flows and diagrams.
 - Place the nodes anywhere
 - Logs the changes
 
-
-
-
 ## How to run
 
 ```
@@ -23,6 +20,7 @@ npm start
 ```
 
 ### Additional information
+
 Operating System used : Linux\
 Javascript version : 1.7\
 create-react-app version: 4.03\
